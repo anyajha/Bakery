@@ -1,0 +1,158 @@
+.cake-card {
+
+  width: 260px;
+
+  background: #e6c4bb; /* soft beige */
+
+  border-radius: 18px;
+
+  padding: 14px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  cursor: pointer;
+
+  position:relative;
+
+
+}
+
+.new-badge {
+ position: absolute;
+ top: 10px;
+ left: 10px;
+ background: linear-gradient(135deg, #ff4d6d, #ff8fa3);
+ color: white;
+ font-size: 0.7rem;
+ font-weight: 700;
+ padding: 4px 10px;
+ border-radius: 999px;
+ letter-spacing: 0.5px;
+ box-shadow: 0 4px 10px rgba(255, 77, 109, 0.4);
+ z-index: 10;
+}
+
+
+
+
+
+
+
+.cake-card:hover {
+
+  transform: translateY(-6px);
+
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+
+}
+
+/* IMAGE */
+
+.cake-image {
+
+  width: 100%;
+
+  height: 180px;
+
+  object-fit: cover;
+
+  border-radius: 14px;
+
+}
+
+/* NAME */
+
+.cake-card h3 {
+
+  font-size: 1rem;
+
+  font-weight: 600;
+
+  margin: 12px 0 6px;
+
+  color: #4a3b32;
+
+  text-transform: capitalize;
+
+}
+
+/* PRICE */
+
+.cake-card p {
+
+  font-size: 0.95rem;
+
+  color: #7a5c50;
+
+  margin-bottom: 12px;
+
+}
+
+/* ACTION BUTTONS */
+
+.cake-actions {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 10px;
+
+}
+
+.cake-actions button {
+
+  flex: 1;
+
+  padding: 8px 0;
+
+  border-radius: 20px;
+
+  border: none;
+
+  font-size: 0.85rem;
+
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+
+}
+
+/* VIEW BUTTON */
+
+.cake-actions button:first-child {
+
+  background: #e0a760;
+
+  color: #4a3b32;
+
+
+
+}
+
+.cake-actions button:first-child:hover {
+
+  background: #c9c3bc;
+
+}
+
+/* ADD BUTTON */
+
+.cake-actions button:last-child {
+
+  background: #b36a5e;
+
+  color: #fff;
+
+}
+
+.cake-actions button:last-child:hover {
+
+  background: #9f594f;
+
+}
+ 
