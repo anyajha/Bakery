@@ -1,0 +1,506 @@
+* {
+
+  box-sizing: border-box;
+
+  font-family: "Segoe UI", sans-serif;
+
+}
+
+.admin-layout {
+
+  display: flex;
+
+  height: 100vh;
+
+  background: #f7f7f7;
+
+}
+
+/* ========== SIDEBAR ========== */
+
+.admin-sidebar {
+
+  width: 220px;
+
+  background: #fff;
+
+  padding: 25px 15px;
+
+  border-right: 1px solid #eee;
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+.admin-sidebar h2 {
+
+  color: #b23a3a;
+
+  margin-bottom: 25px;
+
+  font-weight: 700;
+
+}
+
+.admin-sidebar button {
+
+  background: none;
+
+  border: none;
+
+  padding: 10px 14px;
+
+  margin-bottom: 8px;
+
+  text-align: left;
+
+  border-radius: 20px;
+
+  cursor: pointer;
+
+  color: #444;
+
+  font-size: 14px;
+
+  transition: 0.2s;
+
+}
+
+.admin-sidebar button:hover {
+
+  background: #f2f2f2;
+
+}
+
+.admin-sidebar button.active {
+
+  background: linear-gradient(90deg, #c94b4b, #b23a3a);
+
+  color: #fff;
+
+}
+
+.logout-btn {
+
+  margin-top: auto;
+
+  background: #ffeaea !important;
+
+  color: #b23a3a !important;
+
+  font-weight: 600;
+
+}
+
+/* ========== MAIN ========== */
+
+.admin-main {
+
+  flex: 1;
+
+  padding: 25px 35px;
+
+  overflow-y: auto;
+
+}
+
+.admin-main h2 {
+
+  margin-bottom: 15px;
+
+  color: #333;
+
+}
+
+/* ========== DASHBOARD ========== */
+
+.dash-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+  gap: 15px;
+
+  margin-bottom: 25px;
+
+}
+
+.dash-card {
+
+  background: #fff;
+
+  padding: 18px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+}
+
+.dash-card h4 {
+
+  font-size: 14px;
+
+  color: #777;
+
+  margin-bottom: 6px;
+
+}
+
+.dash-card p {
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  color: #b23a3a;
+
+}
+
+/* ========== CHART ========== */
+
+.dash-visual {
+
+  background: #fff;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+  max-width: 500px;
+
+}
+
+.fake-chart {
+
+  display: flex;
+
+  gap: 10px;
+
+  align-items: flex-end;
+
+  height: 160px;
+
+  margin-top: 15px;
+
+}
+
+.fake-chart div {
+
+  flex: 1;
+
+  background: linear-gradient(180deg, #c94b4b, #b23a3a);
+
+  border-radius: 6px;
+
+}
+
+/* ========== RECENTLY ADDED ========== */
+
+.recent-card {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  background: #fff;
+
+  padding: 10px 14px;
+
+  margin-bottom: 8px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+  font-size: 14px;
+
+}
+
+.recent-card img {
+
+  border-radius: 6px;
+
+}
+
+/* ========== PRODUCT ROW ========== */
+
+.admin-row {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  background: #fff;
+
+  padding: 10px 14px;
+
+  margin-bottom: 8px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+  font-size: 14px;
+
+}
+
+.admin-row img {
+
+  border-radius: 6px;
+
+}
+
+/* Buttons */
+
+.admin-update-btn {
+
+  margin-left: auto;
+
+  background: #ffd9a0;
+
+  border: none;
+
+  padding: 6px 12px;
+
+  border-radius: 15px;
+
+  cursor: pointer;
+
+  font-size: 12px;
+
+}
+
+.admin-delete-btn {
+
+  background: #ffb3b3;
+
+  border: none;
+
+  padding: 6px 12px;
+
+  border-radius: 15px;
+
+  cursor: pointer;
+
+  font-size: 12px;
+
+}
+
+/* ========== FORM ========== */
+
+.admin-form {
+
+  background: #fff;
+
+  padding: 25px;
+
+  border-radius: 14px;
+
+  max-width: 420px;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+
+}
+
+.admin-form input,
+
+.admin-form select {
+
+  width: 100%;
+
+  padding: 10px 12px;
+
+  margin-bottom: 12px;
+
+  border-radius: 8px;
+
+  border: 1px solid #ddd;
+
+  font-size: 14px;
+
+}
+
+.admin-form button {
+
+  width: 100%;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 25px;
+
+  background: linear-gradient(90deg, #c94b4b, #b23a3a);
+
+  color: #fff;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  font-size: 14px;
+
+}
+
+.admin-form button:hover {
+
+  opacity: 0.9;
+
+}
+ 
+
+/* ===== DARK MODE ===== */
+
+.admin-layout.dark {
+
+  background: #121212;
+
+}
+
+.admin-layout.dark .admin-sidebar {
+
+  background: #1e1e1e;
+
+  border-right: 1px solid #333;
+
+}
+
+.admin-layout.dark .admin-main {
+
+  background: #121212;
+
+  color: #eee;
+
+}
+
+.admin-layout.dark h2,
+
+.admin-layout.dark h3,
+
+.admin-layout.dark h4,
+
+.admin-layout.dark p {
+
+  color: #eee;
+
+}
+
+.admin-layout.dark .dash-card,
+
+.admin-layout.dark .dash-visual,
+
+.admin-layout.dark .recent-card,
+
+.admin-layout.dark .admin-row,
+
+.admin-layout.dark .admin-form {
+
+  background: #1f1f1f;
+
+  color: #eee;
+
+}
+
+.admin-layout.dark input,
+
+.admin-layout.dark select {
+
+  background: #2a2a2a;
+
+  color: #eee;
+
+  border: 1px solid #444;
+
+}
+
+.admin-layout.dark .admin-sidebar button {
+
+  color: #ccc;
+
+}
+
+.admin-layout.dark .admin-sidebar button.active {
+
+  background: linear-gradient(90deg, #444, #666);
+
+}
+
+.admin-layout.dark .logout-btn {
+
+  background: #332222 !important;
+
+  color: #ffb3b3 !important;
+
+}
+ 
+
+/* ===== RESPONSIVE SIDEBAR ===== */
+
+.sidebar-toggle {
+
+  display: none;
+
+  background: #b23a3a;
+
+  color: #fff;
+
+  border: none;
+
+  padding: 8px 12px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  margin-bottom: 15px;
+
+}
+
+@media (max-width: 768px) {
+
+  .admin-sidebar {
+
+    position: fixed;
+
+    left: -240px;
+
+    top: 0;
+
+    height: 100%;
+
+    z-index: 1000;
+
+    transition: 0.3s;
+
+  }
+
+  .admin-sidebar.open {
+
+    left: 0;
+
+  }
+
+  .sidebar-toggle {
+
+    display: inline-block;
+
+  }
+
+  .admin-main {
+
+    padding: 20px;
+
+  }
+
+}
+ 
