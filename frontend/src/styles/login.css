@@ -1,0 +1,158 @@
+.login-wrapper {
+
+  min-height: 100vh;
+
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background-image: url("C:\Users\anya-jha\work\cake-website\public\images\loginI.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+}
+
+.signup-wrapper
+{
+  min-height: 100vh;
+
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background-image: url("C:\Users\anya-jha\work\cake-website\public\images\sign.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+  
+}
+ .login-page {
+
+  height: 100vh;
+
+ 
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.login-card {
+
+  width: 460px;
+
+  padding: 32px;
+
+  background: rgba(255,255,255,0.2);
+
+  border-radius: 14px;
+
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+
+  text-align: center;
+
+  backdrop-filter: blur(6px);
+
+}
+
+.login-card h2 {
+
+  margin-bottom: 20px;
+
+  font-weight: 600;
+
+}
+
+.login-card input {
+
+  width: 100%;
+
+  padding: 12px;
+
+  margin-bottom: 14px;
+
+  border-radius: 8px;
+
+  border: 1px solid #ddd;
+
+  font-size: 14px;
+
+}
+
+.login-card button {
+
+  width: 100%;
+
+  padding: 12px;
+
+  background: #7b3f00;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 8px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+}
+
+.login-card button:hover {
+
+  background: #5e2f00;
+
+}
+
+.error {
+
+  color: red;
+
+  font-size: 13px;
+
+  margin-bottom: 10px;
+
+}
+ .switch-auth span {
+
+  color: #7b3f00;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+}
+
+select {
+
+  width: 100%;
+
+  padding: 10px;
+
+  margin-bottom: 12px;
+
+  border-radius: 6px;
+
+  border: 1px solid #ccc;
+
+}
+ 
