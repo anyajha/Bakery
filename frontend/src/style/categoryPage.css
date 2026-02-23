@@ -1,0 +1,40 @@
+/* Page wrapper */
+
+.category-page {
+
+  padding: 30px 40px;
+
+  background-color: #faf7f5;
+
+  min-height: 100vh;
+
+}
+
+/* Title */
+
+.category-title {
+
+  font-size: 28px;
+
+  font-weight: 600;
+
+  margin-bottom: 25px;
+
+  color: #3b2f2f;
+
+}
+
+/* Cards container */
+
+.category-grid {
+
+  display: flex;
+
+  flex-wrap: wrap;          /* allows next row */
+
+  gap: 80px;                /* space between cards */
+
+  align-items: flex-start;
+
+}
+ 
