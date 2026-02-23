@@ -1,0 +1,195 @@
+.testimonial-overlay {
+
+  position: fixed;
+
+  inset: 0;
+
+ background: rgba(245, 236, 224, 0.75); /* soft beige blur */
+ backdrop-filter: blur(2px);
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  z-index: 9999;
+
+}
+
+.testimonial-card {
+
+  background: #cbb7a4;
+
+  width: 420px;              /* increased */
+
+  max-width: 90%;
+
+  padding: 28px 24px 30px;   /* more breathing space */
+
+  border-radius: 18px;
+
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+
+  text-align: center;
+
+  position: relative;
+
+  animation: fadeInUp 0.4s ease;
+
+}
+ 
+
+.testimonial-title {
+
+  font-family: "cursive";
+
+  font-size: 28px;
+
+  color: #7a4a2e;
+
+  margin-bottom: 20px;
+
+}
+
+.quote-circle {
+
+  width: 48px;
+
+  height: 48px;
+
+ background: #cda479;
+
+  color: #fff;
+
+  border-radius: 50%;
+
+  font-size: 28px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  position: absolute;
+
+  top: 85px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+}
+
+.testimonial-box {
+
+  background: #f7f3ef;
+
+  padding: 40px 20px 20px;
+
+  border-radius: 12px;
+
+  margin-top: 20px;
+
+}
+
+.testimonial-text {
+
+  font-size: 14px;
+
+  color: #333;
+
+  line-height: 1.6;
+
+}
+
+.testimonial-box hr {
+
+  margin: 15px 0;
+
+  border: none;
+
+  border-top: 1px solid #aaa;
+
+}
+
+.testimonial-name {
+
+  margin-top: 10px;
+
+  font-style: italic;
+
+  color: #6b4a32;
+
+  text-align: center;
+
+}
+ 
+
+.stars {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  margin: 12px 0;
+
+}
+
+.star {
+
+  font-size: 40px;
+
+  cursor: pointer;
+
+  color: #ccc;
+
+  transition: transform 0.2s, color 0.2s;
+
+}
+
+.star:hover {
+
+  transform: scale(1.2);
+
+}
+
+.star.filled {
+
+  color: #000;
+
+}
+ 
+
+.review-btn {
+
+  background: #7a1f1f; /* same maroon */
+
+  color: white;
+
+  border: none;
+
+  border-radius: 20px;
+
+  padding: 10px 18px;
+
+  font-size: 14px;
+
+  cursor: pointer;
+
+  margin: 10px auto 0;
+
+  display: block;
+
+}
+
+.review-btn:hover {
+
+  background: #5f1818;
+
+}
+ 
+ 
