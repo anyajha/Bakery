@@ -1,0 +1,109 @@
+.account-page {
+
+  max-width: 900px;
+
+  margin: 40px auto;
+
+  padding: 20px;
+
+}
+
+.account-page h2 {
+
+  text-align: center;
+
+  margin-bottom: 30px;
+
+}
+
+.order-card {
+
+  background: #fff;
+
+  border-radius: 12px;
+
+  padding: 16px 20px;
+
+  margin-bottom: 25px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+}
+
+.order-header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  font-weight: 600;
+
+  margin-bottom: 12px;
+
+  color: #6b4c3b;
+
+}
+
+.order-item {
+
+  display: flex;
+
+  gap: 12px;
+
+  align-items: center;
+
+  margin: 10px 0;
+
+}
+
+.order-item img {
+
+  width: 60px;
+
+  height: 60px;
+
+  object-fit: cover;
+
+  border-radius: 8px;
+
+}
+
+.order-item h4 {
+
+  margin: 0;
+
+}
+
+.order-total {
+
+  text-align: right;
+
+  font-weight: bold;
+
+  margin-top: 12px;
+
+  color: #8b3a3a;
+
+}
+
+.loading {
+
+  text-align: center;
+
+  margin-top: 50px;
+
+}
+ .order-address {
+
+  font-size: 13px;
+
+  color: #777;
+
+  margin-top: 6px;
+
+  max-width: 420px;
+
+  line-height: 1.4;
+
+}
+ 
