@@ -1,0 +1,76 @@
+.horizontal-section {
+
+  margin: 50px 0;
+
+}
+
+.row-header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 16px;
+
+}
+
+.row-header h2 {
+
+  font-size: 22px;
+
+  font-weight: 600;
+
+}
+
+.see-all {
+
+  font-size: 14px;
+
+  color: #7a2e2e;
+
+  cursor: pointer;
+
+}
+
+/* SCROLL AREA */
+
+.horizontal-scroll {
+
+  display: flex;
+
+  gap: 20px;
+
+  overflow-x: auto;
+
+  padding-bottom: 10px;
+
+  scroll-behavior: smooth;
+
+}
+
+/* Hide ugly scrollbar */
+
+.horizontal-scroll::-webkit-scrollbar {
+
+  height: 6px;
+
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb {
+
+  background: #e0d4cc;
+
+  border-radius: 10px;
+
+}
+
+.scroll-item {
+
+  min-width: 260px;
+
+  flex-shrink: 0;
+
+}
+ 
